@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { LoginIg } from './componentes/organismos/iniciarSesion'
+import Ver from './componentes/organismos/verPreguntas';  
 import nameContext from './contextos/nameContext';
 import { Ngl } from './componentes/organismos/pregunta';
 import {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <LoginIg />,
+  },
+  {
+    path:"/VerPreguntas",
+    element:<Ver/>,
   },
 {
   path:"/NGL.LINK",

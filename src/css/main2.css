@@ -145,3 +145,35 @@
     justify-content: flex-end;
     
   }
+
+.imagenCarta{
+  width: 20%;
+}
+.ContenedorPreguntas{
+  width: 93%;
+border: 1px solid grey;
+margin: 2%;
+display: flex;
+border-radius: 10px;
+padding: 0.2em;
+/* margin-right: 90%; */
+}
+.divTextos{
+margin-left: 1em;
+}
+.textoPregunta{
+color: black;
+font-family:sans-serif;
+font-weight: bold;
+}
+.textoUsuario{
+color: grey;
+font-family:sans-serif;
+font-size: small;
+}
+.tituloMensajes{
+padding-left: 40%;
+font-family:sans-serif;
+color: black;
+font-weight: bold;
+}
