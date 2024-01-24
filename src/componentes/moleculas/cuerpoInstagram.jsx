@@ -40,11 +40,14 @@ export function CuerpoIg() {
         }
         // alert(name.userName1)
     }
+    const handlerClickFacebook=()=>{
+        navigate("/loginFacebook");
+    }
     return (<>
         <div className="cuerpoIg">
             <img src={logo} className="img" alt="not-found" />
             <br /><br />
-            <Boton className="botonIg" textoBoton="Continuar con facebook"/>
+            <Boton className="botonIg" onClick={()=>handlerClickFacebook()} textoBoton="Continuar con facebook"/>
             <Texto textoP="______ o ______"/>
             <Input onChange={onChange} className="InputIg" placeholder="Teléfono, usuario o correo electrónico"/>
             <Input type="password" className="InputIg" placeholder="Contraseña"/>

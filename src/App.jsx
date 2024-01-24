@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { LoginIg } from './componentes/organismos/iniciarSesion'
 import Ver from './componentes/organismos/verPreguntas';  
 import nameContext from './contextos/nameContext';
+import CuerpoFacebook from './componentes/moleculas/CuerpoFacebook';
 import { Ngl } from './componentes/organismos/pregunta';
 import {
   createBrowserRouter,
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <LoginIg />,
+  },
+  {
+    path:"/loginfacebook",
+    element:<CuerpoFacebook/>
   },
   {
     path:"/VerPreguntas",
