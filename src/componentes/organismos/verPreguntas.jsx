@@ -1,7 +1,7 @@
 import Contenedor from "../moleculas/contenedorPregunta";
 import { Texto } from "../atomos/texto";
 import { useEffect,useState } from "react";
-const API = `http://192.168.1.51:8080/api/mensajes`;
+const API = `http://18.216.203.207/api/mensajes`;
 
 function Ver(){
     const [mensajes, setMensajes] = useState([]);

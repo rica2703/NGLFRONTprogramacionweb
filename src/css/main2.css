@@ -1,179 +1,217 @@
 .cuerpoNGL {
-    background: linear-gradient(to left, #ff5500, #ff28f4  );
-    /* La línea anterior crea un degradado que va de rosa (#ff66a3) a naranja (#ffcc99) de izquierda a derecha */
-    height: 100vh; /* Ajusta la altura según tus necesidades */
-    width: 100%;
-  }
-  body{
-    margin: 0;
-  }
-  .contenedor{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* justify-content: center; */
-  }
-  .contenedorBlanco{
-    margin-top: 10%;
-   width: 85%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: white;
-    border-top-left-radius: 20px; /* Radio para la esquina superior izquierda */
-    border-top-right-radius: 20px; /* Radio para la esquina superior derecha */
-    /* No hay redondeo en la parte inferior */
-  }
-  .contenedorInput{
-    width: 85%;
-    padding: 10px;
-    /* padding-bottom: 25%; */
-    background-color: rgba(255, 255, 255, 0.502);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  .inputMensaje {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    width: 95%;
-    height: 100px;
-    padding-top: 0px; /* Ajusta según sea necesario */
-    padding-left: 0; /* Ajusta según sea necesario */
-    word-wrap: break-word;
-    overflow-y: auto;
-    outline: none;
-  }
-  .usuario{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0px;
-    padding-left: 5%;
-    font-size: 13px;
+  background: linear-gradient(to left, #ff5500, #ff28f4);
+  /* La línea anterior crea un degradado que va de rosa (#ff66a3) a naranja (#ffcc99) de izquierda a derecha */
+  height: 100vh;
+  /* Ajusta la altura según tus necesidades */
+  width: 100%;
+}
 
-  }
-  .invitacion{
-    font-size: 15px;
-    padding-left: 5%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-  .candadito{
-    color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-  }
-  .botonEnviarMensaje{
-    margin-top: 10px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 25px;
-    padding: 15px;
-   width: 85%;
-   box-shadow: 0px 0px 5px 0px rgb(16, 16, 16);
-  }
-  .botonConsigueMensaje{
-    margin-top: 10px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 17px;
-    padding: 15px;
-   width: 90%;
-   box-shadow: 0px 0px 5px 0px rgb(16, 16, 16);
-   font-weight: bold;
-   animation: inclinarAnimacion 1.5s infinite alternate, temblarAnimacion 0.1s 2.1s ease-in-out forwards;
+body {
+  margin: 0;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.contenedorBlanco {
+  margin-top: 10%;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  /* Radio para la esquina superior izquierda */
+  border-top-right-radius: 20px;
+  /* Radio para la esquina superior derecha */
+  /* No hay redondeo en la parte inferior */
+}
+
+.contenedorInput {
+  width: 85%;
+  padding: 10px;
+  /* padding-bottom: 25%; */
+  background-color: rgba(255, 255, 255, 0.502);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.inputMensaje {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 95%;
+  height: 100px;
+  padding-top: 0px;
+  /* Ajusta según sea necesario */
+  padding-left: 0;
+  /* Ajusta según sea necesario */
+  word-wrap: break-word;
+  overflow-y: auto;
+  outline: none;
+}
+
+.usuario {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  padding-left: 5%;
+  font-size: 13px;
+
+}
+
+.invitacion {
+  font-size: 15px;
+  padding-left: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.candadito {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+
+.botonEnviarMensaje {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 25px;
+  padding: 15px;
+  width: 85%;
+  box-shadow: 0px 0px 5px 0px rgb(16, 16, 16);
+}
+
+.botonConsigueMensaje {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  padding: 15px;
+  width: 90%;
+  box-shadow: 0px 0px 5px 0px rgb(16, 16, 16);
+  font-weight: bold;
+  animation: inclinarAnimacion 1.5s infinite alternate, temblarAnimacion 0.1s 2.1s ease-in-out forwards;
   transition: transform 0.5s ease-in-out;
-  }
-  @keyframes inclinarAnimacion {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(5deg); /* Ajusta el ángulo de inclinación según sea necesario */
-    }
-  }
-  @keyframes temblarAnimacion {
-    from, to {
-      transform: translateX(0);
-    }
-    25%, 75% {
-      transform: translateX(-2px);
-    }
-    50%, 100% {
-      transform: translateX(2px);
-    }
-  }
-  .divDedos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .manoImg{
-    width: 5%;
-  }
-  .divMensajePropio{
-    margin-top: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .divCandado{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .imgCandado{
-    width: 5%;
-  }
-  .imgPerfil{
-    /* margin-top: 7%; */
-    /* margin-bottom: 6%; */
-    width: 15%;
-    border-radius: 100%;
-  }
-  .contenedorTextos{
-    width: 90%;
-/* height: 100px; */
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-end;
-    
+}
+
+@keyframes inclinarAnimacion {
+  from {
+    transform: rotate(0deg);
   }
 
-.imagenCarta{
+  to {
+    transform: rotate(5deg);
+    /* Ajusta el ángulo de inclinación según sea necesario */
+  }
+}
+
+@keyframes temblarAnimacion {
+
+  from,
+  to {
+    transform: translateX(0);
+  }
+
+  25%,
+  75% {
+    transform: translateX(-2px);
+  }
+
+  50%,
+  100% {
+    transform: translateX(2px);
+  }
+}
+
+.divDedos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manoImg {
+  width: 5%;
+}
+
+.divMensajePropio {
+  margin-top: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divCandado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgCandado {
+  width: 5%;
+}
+
+.imgPerfil {
+  /* margin-top: 7%; */
+  /* margin-bottom: 6%; */
+  width: 13%;
+  height: 3em;
+  border-radius: 50%;
+}
+
+.contenedorTextos {
+  width: 90%;
+  /* height: 100px; */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.imagenCarta {
   width: 20%;
 }
-.ContenedorPreguntas{
+
+.ContenedorPreguntas {
   width: 93%;
-border: 1px solid grey;
-margin: 2%;
-display: flex;
-border-radius: 10px;
-padding: 0.2em;
-/* margin-right: 90%; */
+  border: 1px solid grey;
+  margin: 2%;
+  display: flex;
+  border-radius: 10px;
+  padding: 0.2em;
+  /* margin-right: 90%; */
 }
-.divTextos{
-margin-left: 1em;
+
+.divTextos {
+  margin-left: 1em;
 }
-.textoPregunta{
-color: black;
-font-family:sans-serif;
-font-weight: bold;
+
+.textoPregunta {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
 }
-.textoUsuario{
-color: grey;
-font-family:sans-serif;
-font-size: small;
+
+.textoUsuario {
+  color: grey;
+  font-family: sans-serif;
+  font-size: small;
 }
-.tituloMensajes{
-padding-left: 40%;
-font-family:sans-serif;
-color: black;
-font-weight: bold;
+
+.tituloMensajes {
+  padding-left: 40%;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
 }

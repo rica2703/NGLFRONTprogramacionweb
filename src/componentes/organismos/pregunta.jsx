@@ -8,7 +8,7 @@ import mano from '../../assets/mano.png';
 import { useState,useEffect } from 'react';
 import { useContext } from 'react';
 import nameContext from '../../contextos/nameContext';
-const API = `http://192.168.1.51:8080/api/mensajes`;
+const API = `http://18.216.203.207/api/mensajes`;
 export function Ngl() {
     const [miConstante, setMiConstante] = useState(120);
     const [mensajeAnonimo,setMensajeAnonimo]=useState("");
@@ -106,7 +106,7 @@ useEffect(() => {
                 <div className='contenedorBlanco'>
                     <img src={perfil} className='imgPerfil' />
                     <div className='contenedorTextos'>
-                        <Texto className="usuario" textoP="@ricardoballinasvallejo" />
+                        <Texto className="usuario" textoP="@luis__palomeque" />
                         <Texto className="invitacion" textoP="envíame mensajes anónimos" />
                     </div>
                 </div>
